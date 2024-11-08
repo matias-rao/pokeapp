@@ -28,8 +28,8 @@
         <!-- Botonera All Pokemons y Favoritos -->
         <div v-if="!search" class="w-full h-20 fixed bg-white bottom-0 flex items-center" style="box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);">
             <div class="flex w-11/12 md:w-9/12 lg:w-6/12 m-auto" >
-                <Button class="w-1/2 p-1 m-1" msg="All" list="true" :active="active_all" @click="toggleActive(1)"/>
-                <Button class="w-1/2 p-1 m-1" msg="Favorites" fav="true" :active="active_favs" @click="toggleActive(2)"/>
+                <Button class="w-full p-1 m-1" msg="All" list="true" :active="active_all" @click="toggleActive(1)"/>
+                <Button class="w-full p-1 m-1" msg="Favorites" fav="true" :active="active_favs" @click="toggleActive(2)"/>
             </div>
         </div>
     </div>
